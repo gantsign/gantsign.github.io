@@ -77,3 +77,128 @@ $susy: (
 @import "archive";
 @import "sidebar";
 @import "print";
+
+
+/*
+   Project specific customizations
+   ========================================================================== */
+
+/* Disble circular clipping of company logo. */
+.author__avatar img {
+  border-radius: 0
+}
+
+/* Numbered inline table of contents. */
+ol.inline_toc {
+  font-size: $type-size-6;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+ol.inline_toc, ol.inline_toc ol {
+
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+
+  > li {
+    display: table;
+    counter-increment: item;
+    margin-bottom: 0.6em;
+
+    &:before {
+      content: counters(item, ".") ". ";
+      display: table-cell;
+      padding-right: 0.6em;
+    }
+
+    ol > li {
+      margin: 0;
+      &:before {
+        content: counters(item, ".") " ";
+      }
+    }
+  }
+}
+
+/* Numbered headings. */
+body {counter-reset: h2}
+  h2 {counter-reset: h3}
+  h3 {counter-reset: h4}
+  h4 {counter-reset: h5}
+  h5 {counter-reset: h6}
+
+.numbered_headings {
+  h2:before {counter-increment: h2; content: counter(h2) ". "}
+  h3:before {counter-increment: h3; content: counter(h2) "." counter(h3) " "}
+  h4:before {counter-increment: h4; content: counter(h2) "." counter(h3) "." counter(h4) " "}
+  h5:before {counter-increment: h5; content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " "}
+  h6:before {counter-increment: h6; content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " "}
+
+  h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.nocount:before, h6.nocount:before { content: ""; counter-increment: none }
+}
+
+/* News feed on home page. */
+.home_news {
+  border-bottom: 1px solid #f2f3f3;
+  margin-bottom: 1.5em;
+}
+
+.os_projects {
+    list-style: none;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    // border: 1px red solid;
+
+    li {
+        display: block;
+        /*float: left;*/
+        width: 298px;
+        font-size: 18px;
+        /*height: 380px;*/
+        // vertical-align: top;
+        // border: 1px blue solid;
+        margin-right: 10px;
+
+        .project_header {
+            border: 1px solid #f2f3f3;
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+            padding: 10px;
+            padding-bottom: 0;
+            background-color: #f2f3f3;
+
+            h2 {
+                margin: 0;
+                font-size: 1em;
+                border-bottom-color: white;
+            }
+
+            div {
+                padding: 0.5em 0;
+            }
+        }
+
+        .project_body {
+            border: 1px solid #f2f3f3;
+            border-top: 0;
+            border-radius: 0 0 10px 10px;
+            padding: 10px;
+
+            & > p:last-child {
+                margin: 0;
+            }
+        }
+    }
+}
+
+#gantsign-env {
+    display: flex;
+    flex-wrap: wrap; }
+
+#env-screenshot {
+    flex-grow: 1; }
