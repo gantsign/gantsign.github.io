@@ -152,16 +152,11 @@ body {counter-reset: h2}
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    // border: 1px red solid;
 
     li {
         display: block;
-        /*float: left;*/
         width: 294px;
         font-size: 18px;
-        /*height: 380px;*/
-        // vertical-align: top;
-        // border: 1px blue solid;
         margin-right: 10px;
 
         .project_header {
