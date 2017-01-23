@@ -1,0 +1,26 @@
+---
+# Require the standard build environment
+sudo: required
+
+# Require Ubuntu 14.04
+dist: trusty
+
+# Require Docker
+services:
+  - docker
+
+script:
+  # Run build script
+  - .travis/build.sh
+
+branches:
+  only:
+  - master
+    - /^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)([\.\-].*)?$/
+
+env:
+  global:
+    # GIT_USERNAME
+    - secure: G9aEThoPJbuHlWTpXHKMIa8+7T/IkuwEn6z0prpQO44+nJNsdCjvC2ZRnDG90A4Xyt47jAnSLy9Fu1DMxQ9x3jTYAXp7Wdy4oi2mJJilEiU9NKytOE/YXNezY6HxIVAA/d8hEBQr7Snvtnb6LBnjBubrDX8q0ldqmxl2qugON3fzn7IscqHC9PKmpK0D89XvZn1abvcpPTy5BYANsRip8pws+FWamNA8ZYAujVZ+Ju6b7O4FR+i4I6SiqXv2JsKo288Tx2AD7r5BSyoscDRxjoMpMbPl4kZIujw2WIWT/naCZkwo2id5lYZY1wmD12G0TaAbPCbjHTuWy5yjseEwgsw0weZwEehsSbXLSNoElPINo13MZOtR2VQbfSlXylbmy1pmAJEq5X+BAjqim4X4vA08vSUaYMSAKTtRgGDQDHU6/8F0UUBNhaXNgYtPXhrdmdh3g01fzY/2UN9BTWiWcZyX2dUDKQiCG/Q5lVif6vbZG5uHilD5YpXBf3lywLj8YTLu2IL1TaiSTC7Irnt0lNqtttPYUsB9j3E2IRTSOsWp3XYnKWJ7h7fG5Q7PSH161jk/U6brUMb5AWEPAD3e0C6bNjs21xa7IWrYsBW1FtkjJXI1w1cPXtvcrEoVENvxoQLPmn+S7Kurf5UDlwe8GrJHZ4+0KX6Pg4/jFCdfMWQ=
+    # GIT_PASSWORD
+    - secure: I5G4x7cdh5x5nwilp/AIpxAmBfAHcMG5Vf0K+o4F96H06On6pC+G8k/PPpcDUi1SsNtatygGM2sryJY57QYuTjwhINQd81x0JFAMcREcczTSgCb4afbfzlviGDRgZDNbpF2sR3DDkEAzOYhQ6dZB8D8ee1UlUenNLH4CXi7jbhtEkObmdyFDA1if7fW8hkl095GtBV9Weq7KjAdCEePE58f1k3bTM4l1fcBWxOxZ7VtCwSlL8HU/N3VFFwDq7RYiTyeTMm+qp7sBtBN26vYNOUOLNYQUF1xf/Bo4AuT/w6ebBuaEWBPckEEzE3rK75ZRTmltX8IqtKlEQQmp92kMWbpeHuRHM0utC8v14xvyatGxI6ADKeRm4159oBqkfkib6P7boBFuWRJ9xYH9EsJ3cRrawmtuyYQeY5F6mIzQ8Dcb/CHp5SYi7vfdt03rR5ChYF0S87MCw4vLDEibLg5yBmT+dALEMbAUWwJYCZeKrbVRXo81BM+eZUen3UN1xDn0/rk+i1pLv4gSJH1177Gp1OvnUasqueNmIxH74Er8fBAvwrGrSx/7ZmpttdSAladrBSzvMxw3SbMSIvLtEI+lHBe98/bEfPj0LUrCKxvXt+OXc6cc+0MdD5BQMqaBW9C5lnMp6VvgDUT3rzPsTKxVXuh/ONnRy3OgZSn//4vA/SA=
