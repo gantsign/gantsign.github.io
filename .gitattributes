@@ -18,6 +18,7 @@
 *.css text
 *.scss text
 *.svg text
+Dockerfile text
 
 # Declare files that will always have CRLF line endings on checkout.
 *.bat text eol=crlf

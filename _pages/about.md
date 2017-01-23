@@ -21,7 +21,8 @@ elegant design that software best meets the needs of a business rather than
 being an obstacle holding that business back.
 
 The Oxford English dictionary defines
-[elegance](https://en.oxforddictionaries.com/definition/elegance) as:
+<a href="https://en.oxforddictionaries.com/definition/elegance" data-proofer-ignore>elegance</a>
+as:
 
 > The quality of being pleasingly ingenious and simple
 
