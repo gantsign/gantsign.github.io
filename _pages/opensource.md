@@ -29,8 +29,9 @@ modified: 2017-01-23T18:27:43+00:00
         </p>
         <p>
             The GantSign archetype comes with Git config, editor config,
-            IntelliJ IDEA config, code coverage config, Maven Enforcer plugin
-            and general Maven configuration.
+            IntelliJ IDEA config, code coverage config,
+            <a href="https://maven.apache.org/enforcer/maven-enforcer-plugin">Maven Enforcer</a>
+            plugin and general Maven configuration.
         </p>
     </div>
 </li>
@@ -41,12 +42,13 @@ modified: 2017-01-23T18:27:43+00:00
     </div>
     <div class="project_body">
         <p>
-            The GantSign code style configuration for the IntelliJ IDEA IDE
+            The GantSign code style configuration for the
+            <a href="https://www.jetbrains.com/idea">IntelliJ IDEA</a> IDE
             focuses on readability and minimizing version control changes.
         </p>
         <p>
             This is achieved though mandatory line wrapping for certain
-            constructs such as array and enum values and fixed indentation
+            constructs, such as array and enum values, and fixed indentation
             rather than aligning with parentheses.
         </p>
     </div>
@@ -58,8 +60,10 @@ modified: 2017-01-23T18:27:43+00:00
     </div>
     <div class="project_body">
         <p>
-            The GantSign CheckStyle configuration is designed to fail the build
-            in the event of likely bugs, bad practice or just poor code style.
+            The GantSign
+            <a href="http://checkstyle.sourceforge.net">Checkstyle</a>
+            configuration is designed to fail the build in the event of likely
+            bugs, bad practice or just poor code style.
         </p>
         <p>
             The goal is to catch as much as possible before the code goes to
@@ -74,13 +78,15 @@ modified: 2017-01-23T18:27:43+00:00
     </div>
     <div class="project_body">
         <p>
-            The GantSign checks for Google Error Prone pickup where our
-            Checkstyle configuration leaves off. Checkstyle works on the source
-            code and lacks the information to write rules about API use.
+            The GantSign checks for
+            <a href="http://errorprone.info">Google Error Prone</a>
+            pickup where our Checkstyle configuration leaves off. Checkstyle
+            works on the source code and lacks the information to write rules
+            about API use.
         </p>
         <p>
-            The GantSign checks push developers to use the best APIs currently
-            available.
+            The GantSign checks for Error Prone push developers to use the best
+            APIs currently available.
         </p>
     </div>
 </li>
@@ -102,9 +108,23 @@ modified: 2017-01-23T18:27:43+00:00
             reproducibly setup your development environment for your project.
         </p>
         <p>
-            As well as installing Java, Maven and IntelliJ IDEA it enables
-            you to work on DevOps projects by installing Docker, Ansible and
-            Molecule.
+            There is out of the box support for Java, Node.js and Go
+            development.
+        </p>
+        <p>
+            <a href="https://www.jetbrains.com/idea">IntelliJ IDEA</a> and
+            <a href="https://code.visualstudio.com">Visual Studio Code</a> IDEs
+            are included for editing.
+        </p>
+        <p>
+            <a href="https://www.docker.com">Docker</a> and
+            <a href="https://kubernetes.io">Kubernetes</a> are included to help
+            you write cloud applications.
+        </p>
+        <p>
+            <a href="https://www.ansible.com">Ansible</a> and
+            <a href="https://molecule.readthedocs.io">Molecule</a> are included
+            for DevOps development.
         </p>
     </div>
 </li>
@@ -120,14 +140,13 @@ modified: 2017-01-23T18:27:43+00:00
 [Ansible](https://www.ansible.com) is a tool for automating installation and
 configuration software, and configuration of operating systems.
 
-Compared with the competition Ansible sacrifices some advanced features for ease
-of development. Whether you are coming from a development or operations
-background you'll find Ansible roles and playbooks are easy to develop; this
-makes it easy to share the same tooling across environments and helps break down
-the walls between the development and operations roles.
+Whether you are coming from a development or operations background you'll find
+Ansible roles and playbooks are easy to develop; this makes it easy to share the
+same tooling across environments and helps break down the walls between the
+development and operations roles.
 
-Ansible is more than powerful enough to use for provisioning your development
-environment, Docker images and your servers.
+With Ansible your can provision everything from your development environment, to
+your [Docker](https://www.docker.com) images, to your your servers.
 
 The GanSign Ansible roles are available from
 [Ansible Galaxy](https://galaxy.ansible.com/gantsign/); between them there has
@@ -144,7 +163,7 @@ downloads of GantSign Ansible roles.
     <div class="project_body">
         <p>
             Ansible role to install the
-            <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA IDE</a>,
+            <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a> IDE,
             configure the JDK, configure Maven, install plugins and configure
             the code style.
         </p>
@@ -159,7 +178,9 @@ downloads of GantSign Ansible roles.
     <div class="project_body">
         <p>
             Ansible role to install plugins for the
-            <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA IDE</a>.
+            <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a> IDE.
+        </p>
+        <p>
             This role is useful if you want to conditionally install plugins
             using Ansible tags.
         </p>
@@ -201,11 +222,10 @@ downloads of GantSign Ansible roles.
     </div>
     <div class="project_body">
         <p>
-            Ansible role to install
+            Ansible role to install the
             <a href="https://github.com/jcgay/maven-color">Maven Color</a>
-            extension for Apache Maven, authored by
-            <a href="https://github.com/jcgay">Jean-Christophe Gay</a>, which
-            colorizes the Maven console output.
+            extension for Apache Maven, which colorizes the Maven console
+            output.
         </p>
     </div>
 </li>
@@ -217,11 +237,10 @@ downloads of GantSign Ansible roles.
     </div>
     <div class="project_body">
         <p>
-            Ansible role to install
+            Ansible role to install the
             <a href="https://github.com/jcgay/maven-notifier">Maven Notifier</a>
-            extension for Apache Maven, authored by
-            <a href="https://github.com/jcgay">Jean-Christophe Gay</a>, which
-            provides a GUI notification when the Maven build completes.
+            extension for Apache Maven, which provides a GUI notification when
+            the Maven build completes.
         </p>
     </div>
 </li>
@@ -277,7 +296,7 @@ downloads of GantSign Ansible roles.
         <p>
             Ansible role to install the
             <a href="https://code.visualstudio.com/">Visual Studio Code IDE</a>,
-            configure the IDE and install plugins.
+            configure the IDE and install extensions.
         </p>
     </div>
 </li>
@@ -289,9 +308,11 @@ downloads of GantSign Ansible roles.
     </div>
     <div class="project_body">
         <p>
-            Ansible role to install plugins for the the
-            <a href="https://code.visualstudio.com/">Visual Studio Code IDE</a>.
-            This role is useful if you want to conditionally install plugins
+            Ansible role to install extensions for the the
+            <a href="https://code.visualstudio.com/">Visual Studio Code</a> IDE.
+        </p>
+        <p>
+            This role is useful if you want to conditionally install extensions
             using Ansible tags.
         </p>
     </div>
@@ -306,7 +327,7 @@ downloads of GantSign Ansible roles.
         <p>
             Ansible role to install the
             <a href="https://atom.io/">Atom</a> text editor, configure the
-            editor and install plugins.
+            editor and install packages.
         </p>
     </div>
 </li>
@@ -318,9 +339,12 @@ downloads of GantSign Ansible roles.
     </div>
     <div class="project_body">
         <p>
-            Ansible role to install plugins for the
-            <a href="https://atom.io/">Atom</a> text editor. This role is useful
-            if you want to conditionally install plugins using Ansible tags.
+            Ansible role to install packages for the
+            <a href="https://atom.io/">Atom</a> text editor.
+        </p>
+        <p>
+            This role is useful if you want to conditionally install packages
+            using Ansible tags.
         </p>
     </div>
 </li>
@@ -374,7 +398,9 @@ downloads of GantSign Ansible roles.
     <div class="project_body">
         <p>
             Ansible role to configure which applications are pinned to the
-            Ubuntu Unity / Xfce4 desktop application launcher.
+            <a href="https://unity.ubuntu.com">Ubuntu Unity</a> /
+            <a href="https://github.com/M7S/dockbarx">DockbarX</a> desktop
+            application launcher.
         </p>
     </div>
 </li>
@@ -398,8 +424,9 @@ downloads of GantSign Ansible roles.
     </div>
     <div class="project_body">
         <p>
-            Ansible role to configure the default web browser for Ubuntu Unity /
-            Xfce4.
+            Ansible role to configure the default web browser for
+            <a href="https://unity.ubuntu.com">Ubuntu Unity</a> /
+            <a href="https://www.xfce.org">Xfce4</a>.
         </p>
     </div>
 </li>
@@ -411,9 +438,12 @@ downloads of GantSign Ansible roles.
     </div>
     <div class="project_body">
         <p>
-            Ansible role to configure the auto-login user for the Ubuntu Unity /
-            Xfce4 desktops, or any other desktop using the LightDM desktop
-            manager.
+            Ansible role to configure the auto-login user for the
+            <a href="https://unity.ubuntu.com">Ubuntu Unity</a> /
+            <a href="https://www.xfce.org">Xfce4</a> desktops, or any other
+            desktop using the
+            <a href="https://www.freedesktop.org/wiki/Software/LightDM">LightDM</a>
+            desktop manager.
         </p>
     </div>
 </li>
@@ -451,7 +481,8 @@ downloads of GantSign Ansible roles.
     <div class="project_body">
         <p>
             Ansible role to enabled compressed RAM to be used as swap by
-            installing ZRam Config.
+            installing
+            <a href="https://www.kernel.org/doc/Documentation/blockdev/zram.txt">ZRam Config</a>.
         </p>
     </div>
 </li>
@@ -475,7 +506,9 @@ downloads of GantSign Ansible roles.
     </div>
     <div class="project_body">
         <p>
-            Ansible role to configure the APT package manager caching policy.
+            Ansible role to configure the
+            <a href="https://wiki.debian.org/Apt">APT</a> package manager
+            caching policy.
         </p>
     </div>
 </li>
@@ -533,7 +566,7 @@ for general use yet.
             The goal is to make code generation flexible and easy to extend.
         </p>
         <p>
-            Currently limited to generating Swagger specifications but code
+            Currently limited to generating Swagger specifications, but code
             generation is planned.
         </p>
     </div>
