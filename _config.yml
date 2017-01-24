@@ -13,7 +13,7 @@ name: &name 'GantSign Ltd. Company No. 06109112 (registered in England)'
 description: &description 'Software consultancy.'
 
 # The base hostname & protocol for your site e.g. "https://example.github.io"
-url: https://gantsign.github.io
+url: http://gantsign.com
 
 # The subpath of your site, e.g. "/blog"
 baseurl: ''
@@ -52,7 +52,7 @@ author:
   bio: Software Consultancy
   location: 'London, UK'
   email: info@gantsign.com
-  uri: https://gantsign.com
+  uri: http://gantsign.com
   github: gantsign
   twitter: *twitter
 
