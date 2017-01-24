@@ -26,7 +26,7 @@ feature_row:
       it make it easier to share solutions; GantSign have open sourced our
       Vagrant built development environment and several Ansible roles used to
       provision it.
-    url: /docs/opensource#virtual-machine-for-development
+    url: /opensource#virtual-machine-for-development
     btn_label: Learn More
   - title: Open Source
     excerpt: >
@@ -35,10 +35,10 @@ feature_row:
       provides more reliable results, requires less ongoing effort, provides
       fast feedback, and allows you to spend more time encouraging your team
       rather than listing their coding errors.
-    url: /docs/opensource#java-quality-engineering-tools
+    url: /opensource#java-quality-engineering-tools
     btn_label: Learn More
-date: 2017-01-23T18:27:43+00:00
-modified: 2017-01-23T18:27:43+00:00
+date: 2017-01-24T13:58:23+00:00
+modified: 2017-01-24T13:58:23+00:00
 ---
 
 {% include feature_row id="intro" type="center" %}
