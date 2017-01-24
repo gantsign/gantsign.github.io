@@ -14,7 +14,7 @@ feature_row:
     excerpt: >
       Microservices are great way to deliver large projects in a shorter
       timescale. While many companies want to benefit from the advantages of
-      microservices few have the experience to deliver microservice projects
+      microservices, few have the experience to deliver microservice projects
       successfully. Get yourself ready for microservices by watching our
       introductory video.
     url: /news/microservices-intro
@@ -30,11 +30,11 @@ feature_row:
     btn_label: Learn More
   - title: Open Source
     excerpt: >
-      GantSign has open sourced our configuration and tooling to aid you in
+      GantSign has open sourced our tooling and Checkstyle rules to aid you in
       writing great quality Java code. Using tooling to drive up quality,
       provides more reliable results, requires less ongoing effort, provides
       fast feedback, and allows you to spend more time encouraging your team
-      rather than listing their coding errors.
+      rather than listing their coding flaws.
     url: /opensource#java-quality-engineering-tools
     btn_label: Learn More
 date: 2017-01-24T13:58:23+00:00
