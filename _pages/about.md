@@ -40,8 +40,8 @@ In software an elegant design is typically one that:
 * minimizes the scope for bugs
 * encourages fail fast behavior for bugs
 * is easy to debug when things fail
-* encourages the developer write the parts of the code that are likely to need debugging
-* encourages the developer write the parts of the code that are likely vary most with use case
+* encourages the developer to write the parts of the code that are likely to need debugging
+* encourages the developer to write the parts of the code that are likely to vary most with use case
 
 To achieve an elegant design you need:
 

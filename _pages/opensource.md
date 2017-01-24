@@ -145,8 +145,8 @@ Ansible roles and playbooks are easy to develop; this makes it easy to share the
 same tooling across environments and helps break down the walls between the
 development and operations roles.
 
-With Ansible your can provision everything from your development environment, to
-your [Docker](https://www.docker.com) images, to your your servers.
+With Ansible you can provision everything from your development environment, to
+your [Docker](https://www.docker.com) images, to your servers.
 
 The GanSign Ansible roles are available from
 [Ansible Galaxy](https://galaxy.ansible.com/gantsign/); between them there has

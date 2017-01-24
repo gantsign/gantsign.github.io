@@ -23,7 +23,7 @@ feature_row:
     excerpt: >
       Replace slow, error prone, manual processes with fast, reliable, version
       controlled, scriptable processes. One of the best things about DevOps is
-      it make it easier to share solutions; GantSign have open sourced our
+      it makes it easier to share solutions; GantSign have open sourced our
       Vagrant built development environment and several Ansible roles used to
       provision it.
     url: /opensource#virtual-machine-for-development
