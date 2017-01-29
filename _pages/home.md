@@ -5,8 +5,9 @@ header:
   overlay_color: '#5e616c'
   overlay_image: images/header-laptop.jpg
   caption:
-description:
-  GantSign EnV: A development environment for Java and Ansible built using Vagrant.
+description: >
+  GantSign Ltd. software and software consultancy specializing in Java,
+  microservices and DevOps.
 excerpt: >
   Software consultancy
 feature_row:
@@ -38,7 +39,7 @@ feature_row:
     url: /opensource#java-quality-engineering-tools
     btn_label: Learn More
 date: 2017-01-24T13:58:23+00:00
-modified: 2017-01-24T13:58:23+00:00
+modified: 2017-01-29T13:50:21+00:00
 ---
 
 {% include feature_row id="intro" type="center" %}
