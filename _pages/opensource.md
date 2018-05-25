@@ -10,7 +10,7 @@ description: >
   List of GantSign opensource projects.
 excerpt: Java tools, development VM and Ansible roles.
 date: 2017-01-23T18:27:43+00:00
-modified: 2017-01-23T18:27:43+00:00
+modified: 2018-05-25T14:50:32+01:00
 ---
 
 # Java quality engineering tools
@@ -150,7 +150,7 @@ your [Docker](https://www.docker.com) images, to your servers.
 
 The GanSign Ansible roles are available from
 [Ansible Galaxy](https://galaxy.ansible.com/gantsign/); between them there has
-been over [13,070](https://galaxy.ansible.com/list#/roles?page=1&page_size=10&users=gantsign&order=-download_count,name)
+been over [31,408](https://galaxy.ansible.com/list#/roles?page=1&page_size=10&users=gantsign&order=-download_count,name)
 downloads of GantSign Ansible roles.
 
 <ul class="os_projects ansible_roles">
