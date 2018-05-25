@@ -20,6 +20,7 @@ feature_row:
       introductory video.
     url: /news/microservices-intro
     btn_label: Watch Video
+    btn_class: btn--primary
   - title: DevOps
     excerpt: >
       Replace slow, error prone, manual processes with fast, reliable, version
@@ -29,6 +30,7 @@ feature_row:
       provision it.
     url: /opensource#virtual-machine-for-development
     btn_label: Learn More
+    btn_class: btn--primary
   - title: Open Source
     excerpt: >
       GantSign has open sourced our tooling and Checkstyle rules to aid you in
@@ -38,6 +40,7 @@ feature_row:
       rather than listing their coding flaws.
     url: /opensource#java-quality-engineering-tools
     btn_label: Learn More
+    btn_class: btn--primary
 date: 2017-01-24T13:58:23+00:00
 modified: 2017-01-29T13:50:21+00:00
 ---

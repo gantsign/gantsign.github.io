@@ -398,7 +398,7 @@ downloads of GantSign Ansible roles.
     <div class="project_body">
         <p>
             Ansible role to configure which applications are pinned to the
-            <a href="https://unity.ubuntu.com">Ubuntu Unity</a> /
+            <a href="https://en.wikipedia.org/wiki/Unity_(user_interface)">Ubuntu Unity</a> /
             <a href="https://github.com/M7S/dockbarx">DockbarX</a> desktop
             application launcher.
         </p>
@@ -425,7 +425,7 @@ downloads of GantSign Ansible roles.
     <div class="project_body">
         <p>
             Ansible role to configure the default web browser for
-            <a href="https://unity.ubuntu.com">Ubuntu Unity</a> /
+            <a href="https://en.wikipedia.org/wiki/Unity_(user_interface)">Ubuntu Unity</a> /
             <a href="https://www.xfce.org">Xfce4</a>.
         </p>
     </div>
@@ -439,7 +439,7 @@ downloads of GantSign Ansible roles.
     <div class="project_body">
         <p>
             Ansible role to configure the auto-login user for the
-            <a href="https://unity.ubuntu.com">Ubuntu Unity</a> /
+            <a href="https://en.wikipedia.org/wiki/Unity_(user_interface)">Ubuntu Unity</a> /
             <a href="https://www.xfce.org">Xfce4</a> desktops, or any other
             desktop using the
             <a href="https://www.freedesktop.org/wiki/Software/LightDM">LightDM</a>
