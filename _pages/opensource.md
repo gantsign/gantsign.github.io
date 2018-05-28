@@ -23,14 +23,19 @@ modified: 2018-05-25T14:50:32+01:00
     </div>
     <div class="project_body">
         <p>
-            The GantSign code style configuration for the
+            The GantSign Code Style configuration for the
             <a href="https://www.jetbrains.com/idea">IntelliJ IDEA</a> IDE
-            focuses on readability and minimizing version control changes.
+            aims to minimize
+            <a href="https://en.wiktionary.org/wiki/bikeshedding">bikeshedding</a>
+            and support automated code formatting.
         </p>
         <p>
-            This is achieved though mandatory line wrapping for certain
-            constructs, such as array and enum values, and fixed indentation
-            rather than aligning with parentheses.
+            This is achieved though adhering to the
+            <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style</a>,
+            the
+            <a href="https://standardjs.com/">JavaScript Standard Style</a>
+            and the
+            <a href="https://kotlinlang.org/docs/reference/coding-conventions.html#applying-the-style-guide">Kotlin Style Guide</a>.
         </p>
     </div>
 </li>
