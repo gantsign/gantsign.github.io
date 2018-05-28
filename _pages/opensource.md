@@ -18,25 +18,6 @@ modified: 2018-05-25T14:50:32+01:00
 <ul class="os_projects">
 <li>
     <div class="project_header">
-        <h2>java-application-maven-archetype</h2>
-        <div><a href="https://github.com/gantsign/java-application-maven-archetype">GitHub</a> ·
-        <a href="https://gantsign.github.io/java-application-maven-archetype/release/">Maven Site</a></div>
-    </div>
-    <div class="project_body">
-        <p>
-            There's typically a lot more project setup required than is provided
-            by the standard Maven archetype.
-        </p>
-        <p>
-            The GantSign archetype comes with Git config, editor config,
-            IntelliJ IDEA config, code coverage config,
-            <a href="https://maven.apache.org/enforcer/maven-enforcer-plugin">Maven Enforcer</a>
-            plugin and general Maven configuration.
-        </p>
-    </div>
-</li>
-<li>
-    <div class="project_header">
         <h2>code-style-intellij</h2>
         <div><a href="https://github.com/gantsign/code-style-intellij">GitHub</a></div>
     </div>
@@ -87,6 +68,25 @@ modified: 2018-05-25T14:50:32+01:00
         <p>
             The GantSign checks for Error Prone push developers to use the best
             APIs currently available.
+        </p>
+    </div>
+</li>
+<li>
+    <div class="project_header">
+        <h2>java-application-maven-archetype</h2>
+        <div><a href="https://github.com/gantsign/java-application-maven-archetype">GitHub</a> ·
+        <a href="https://gantsign.github.io/java-application-maven-archetype/release/">Maven Site</a></div>
+    </div>
+    <div class="project_body">
+        <p>
+            There's typically a lot more project setup required than is provided
+            by the standard Maven archetype.
+        </p>
+        <p>
+            The GantSign archetype comes with Git config, editor config,
+            IntelliJ IDEA config, code coverage config,
+            <a href="https://maven.apache.org/enforcer/maven-enforcer-plugin">Maven Enforcer</a>
+            plugin and general Maven configuration.
         </p>
     </div>
 </li>
