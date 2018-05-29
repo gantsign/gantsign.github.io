@@ -8,12 +8,75 @@ header:
   caption:
 description: >
   List of GantSign opensource projects.
-excerpt: Java tools, development VM and Ansible roles.
+excerpt: >
+    Libraries, plugins, code style and code quality, development VM and
+    Ansible roles.
 date: 2017-01-23T18:27:43+00:00
-modified: 2018-05-25T14:50:32+01:00
+modified: 2018-05-29T11:14:23+01:00
 ---
 
-# Java quality engineering tools
+# Libraries and plugins
+
+<ul class="os_projects">
+<li>
+    <div class="project_header">
+        <h2>ktlint-maven-plugin</h2>
+        <div>
+            <a href="https://github.com/gantsign/ktlint-maven-plugin">GitHub</a> ·
+            <a href="http://gantsign.com/ktlint-maven-plugin/">Maven Site</a>
+        </div>
+    </div>
+    <div class="project_body">
+        <p>
+            Maven Plugin for running
+            <a href="https://github.com/shyiko/ktlint">ktlint</a> (a Kotlin
+            linter) as part of a Maven build.
+        </p>
+        <p>
+            This plugin supports formating Kotlin files, checking for violations
+            (optionally failing the build), and Maven Site reports of
+            violations.
+        </p>
+    </div>
+</li>
+<li>
+    <div class="project_header">
+        <h2>kotlin-maven-plugin-tools</h2>
+        <div>
+            <a href="https://github.com/gantsign/kotlin-maven-plugin-tools">GitHub</a>
+        </div>
+    </div>
+    <div class="project_body">
+        <p>
+            Maven plugin metadata extractor for Maven plugins written in Kotlin.
+        </p>
+        <p>
+            Enables Maven plugins to be written in Kotlin the same way they're
+            written in Java.
+        </p>
+    </div>
+</li>
+<li>
+    <div class="project_header">
+        <h2>doxia-sink-api-ktx</h2>
+        <div>
+            <a href="https://github.com/gantsign/doxia-sink-api-ktx">GitHub</a>
+        </div>
+    </div>
+    <div class="project_body">
+        <p>
+            Kotlin extensions for
+            <a href="https://maven.apache.org/doxia/">Apache Doxia</a> sink API .
+        </p>
+        <p>
+            A Kotlin DSL for generating Maven Site reports, useful it you're
+            writing your own Maven plugins.
+        </p>
+    </div>
+</li>
+</ul>
+
+# Code style and code quality
 
 <ul class="os_projects">
 <li>
@@ -41,6 +104,24 @@ modified: 2018-05-25T14:50:32+01:00
 </li>
 <li>
     <div class="project_header">
+        <h2>inspection-profile-intellij</h2>
+        <div><a href="https://github.com/gantsign/inspection-profile-intellij">GitHub</a></div>
+    </div>
+    <div class="project_body">
+        <p>
+            The GantSign Inspection Profile for the
+            <a href="https://www.jetbrains.com/idea">IntelliJ IDEA</a> IDE
+            aims to be both educational and to deliver significant improvements
+            to code quality.
+        </p>
+        <p>
+            This is achieved though increasing the severity of some code
+            inspections and enabling others.
+        </p>
+    </div>
+</li>
+<li>
+    <div class="project_header">
         <h2>checkstyle-config</h2>
         <div><a href="https://github.com/gantsign/checkstyle-config">GitHub</a></div>
     </div>
@@ -50,6 +131,24 @@ modified: 2018-05-25T14:50:32+01:00
             <a href="http://checkstyle.sourceforge.net">Checkstyle</a>
             configuration is designed to fail the build in the event of likely
             bugs, bad practice or just poor code style.
+        </p>
+        <p>
+            The goal is to catch as much as possible before the code goes to
+            manual code review.
+        </p>
+    </div>
+</li>
+<li>
+    <div class="project_header">
+        <h2>pmd-config</h2>
+        <div><a href="https://github.com/gantsign/pmd-config">GitHub</a></div>
+    </div>
+    <div class="project_body">
+        <p>
+            The GantSign
+            <a href="https://pmd.github.io/">PMD</a> configuration is designed
+            to fail the build in the event of likely bugs, bad practice or just
+            poor code style.
         </p>
         <p>
             The goal is to catch as much as possible before the code goes to

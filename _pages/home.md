@@ -38,11 +38,11 @@ feature_row:
       provides more reliable results, requires less ongoing effort, provides
       fast feedback, and allows you to spend more time encouraging your team
       rather than listing their coding flaws.
-    url: /opensource#java-quality-engineering-tools
+    url: /opensource#libraries-and-plugins
     btn_label: Learn More
     btn_class: btn--primary
 date: 2017-01-24T13:58:23+00:00
-modified: 2017-01-29T13:50:21+00:00
+modified: 2018-05-29T11:30:24+01:00
 ---
 
 {% include feature_row id="intro" type="center" %}
