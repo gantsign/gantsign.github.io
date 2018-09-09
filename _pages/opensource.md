@@ -12,7 +12,7 @@ excerpt: >
     Libraries, plugins, code style and code quality, development VM and
     Ansible roles.
 date: 2017-01-23T18:27:43+00:00
-modified: 2018-05-29T11:14:23+01:00
+modified: 2018-09-09T14:13:42+01:00
 ---
 
 # Libraries and plugins
@@ -626,69 +626,6 @@ downloads of GantSign Ansible roles.
         <p>
             Ansible role to install and configure
             <a href="http://ohmyz.sh/">oh-my-zsh</a> shell enhancement.
-        </p>
-    </div>
-</li>
-</ul>
-
-# Incubator
-
-The following projects are in the early stages of development and are not ready
-for general use yet.
-
-<ul class="os_projects">
-<li>
-    <div class="project_header">
-        <h2>restrulz</h2>
-        <div><a href="https://github.com/gantsign/restrulz">GitHub</a></div>
-    </div>
-    <div class="project_body">
-        <p>
-            Restrulz is a domain specific language for defining REST services.
-        </p>
-        <p>
-            The goal is to make writing REST services easier, to encourage best
-            practice, and to make code generation easier.
-        </p>
-        <p>
-            As well as the language grammar this project includes an Eclipse IDE
-            plugin and Maven support.
-        </p>
-    </div>
-</li>
-<li>
-    <div class="project_header">
-        <h2>restrulz-gen</h2>
-        <div><a href="https://github.com/gantsign/restrulz-gen">GitHub</a></div>
-    </div>
-    <div class="project_body">
-        <p>
-            The Restrulz generator is a code/documentation generator for
-            REST services specified using Restrulz.
-        </p>
-        <p>
-            The goal is to make code generation flexible and easy to extend.
-        </p>
-        <p>
-            Currently limited to generating Swagger specifications, but code
-            generation is planned.
-        </p>
-    </div>
-</li>
-<li>
-    <div class="project_header">
-        <h2>restrulz-demo</h2>
-        <div><a href="https://github.com/gantsign/restrulz-demo">GitHub</a></div>
-    </div>
-    <div class="project_body">
-        <p>
-            An example project showcasing Restrulz.
-        </p>
-        <p>
-            There is a sample Restrulz specification to view/edit using the
-            Eclipse IDE plugin, a Maven module that uses Restrulz Generator to
-            generate a Swagger specification, and Maven modules for client and
-            server code generation from the Swagger specification.
         </p>
     </div>
 </li>
