@@ -178,8 +178,8 @@ modified: 2018-09-09T14:13:42+01:00
 <li>
     <div class="project_header">
         <h2>java-application-maven-archetype</h2>
-        <div><a href="https://github.com/gantsign/java-application-maven-archetype">GitHub</a> ·
-        <a href="https://gantsign.github.io/java-application-maven-archetype/release/">Maven Site</a></div>
+        <div><a href="https://github.com/gantsign/maven-archetypes">GitHub</a> ·
+        <a href="https://gantsign.github.io/maven-archetypes">Maven Site</a></div>
     </div>
     <div class="project_body">
         <p>
