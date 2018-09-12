@@ -13,8 +13,6 @@ date: 2017-01-23T18:27:43+00:00
 modified: 2017-01-23T18:27:43+00:00
 ---
 
-{% include base_path %}
-
 GantSign Ltd. was founded in 2007 as a software and software consultancy
 company. The name is a portmanteau of "elegant" and "design"; it is through
 elegant design that software best meets the needs of a business rather than
@@ -57,4 +55,4 @@ To achieve an elegant design you need:
 * a pragmatic approach to compromise
 
 You can see implementations for some of GantSign's elegant designs in our
-[open source projects]({{ base_path}}/opensource).
+[open source projects]({{ '/opensource' | relative_url }}).

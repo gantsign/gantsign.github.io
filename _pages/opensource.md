@@ -234,7 +234,7 @@ modified: 2018-09-09T14:13:42+01:00
 </li>
 </ul>
 <div id="env-screenshot">
-    <img src="{{ base_path }}/images/gantsign-env.png"
+    <img src="{{ '/images/gantsign-env.png' | relative_url }}"
       alt="Screenshot of GantSign development environment"/>
 </div>
 </div>
