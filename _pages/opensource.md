@@ -237,7 +237,7 @@ your [Docker](https://www.docker.com) images, to your servers.
 
 The GanSign Ansible roles are available from
 [Ansible Galaxy](https://galaxy.ansible.com/gantsign/); between them there has
-been over [31,408](https://galaxy.ansible.com/list#/roles?page=1&page_size=10&users=gantsign&order=-download_count,name)
+been over [49,039](https://galaxy.ansible.com/search?vendor=false&namespaces=gantsign&order_by=-repository__download_count&page_size=100)
 downloads of GantSign Ansible roles.
 
 <ul class="os_projects ansible_roles">
