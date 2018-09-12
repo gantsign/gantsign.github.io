@@ -158,20 +158,22 @@ modified: 2018-09-12T17:47:33+01:00
 </li>
 <li>
     <div class="project_header">
-        <h2>java-application-maven-archetype</h2>
+        <h2>maven-archetypes</h2>
         <div><a href="https://github.com/gantsign/maven-archetypes">GitHub</a> ·
-        <a href="https://gantsign.github.io/maven-archetypes">Maven Site</a></div>
+        <a href="https://gantsign.github.io/maven-archetypes/">Maven Site</a></div>
     </div>
     <div class="project_body">
         <p>
-            There's typically a lot more project setup required than is provided
-            by the standard Maven archetype.
+            There's a lot more project setup required than is provided by the
+            standard Maven archetype.
         </p>
         <p>
-            The GantSign archetype comes with Git config, editor config,
-            IntelliJ IDEA config, code coverage config,
+            GantSign's Maven archetypes give you best practice out of the box
+            for Java/Kotlin applications/libraries. These four archetypes come
+            with configuration for Git, Editor Config, IntelliJ IDEA, code
+            formatting, code coverage,
             <a href="https://maven.apache.org/enforcer/maven-enforcer-plugin">Maven Enforcer</a>
-            plugin and general Maven configuration.
+            and general Maven configuration.
         </p>
     </div>
 </li>
