@@ -55,4 +55,4 @@ To achieve an elegant design you need:
 * a pragmatic approach to compromise
 
 You can see implementations for some of GantSign's elegant designs in our
-[open source projects]({{ '/opensource' | relative_url }}).
+[open-source projects]({{ '/opensource' | relative_url }}).

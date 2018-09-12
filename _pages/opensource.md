@@ -1,13 +1,13 @@
 ---
 layout: splash
-title: Open Source
+title: Open-source
 permalink: /opensource/
 header:
   overlay_color: '#5e616c'
   overlay_image: images/header-laptop.jpg
   caption:
 description: >
-  List of GantSign opensource projects.
+  List of GantSign open-source projects.
 excerpt: >
     Libraries, plugins, code style and code quality, development VM and
     Ansible roles.
