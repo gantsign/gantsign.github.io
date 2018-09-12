@@ -12,7 +12,7 @@ excerpt: >
     Libraries, plugins, code style and code quality, development VM and
     Ansible roles.
 date: 2017-01-23T18:27:43+00:00
-modified: 2018-09-09T14:13:42+01:00
+modified: 2018-09-12T17:47:33+01:00
 ---
 
 # Libraries and plugins
@@ -153,25 +153,6 @@ modified: 2018-09-09T14:13:42+01:00
         <p>
             The goal is to catch as much as possible before the code goes to
             manual code review.
-        </p>
-    </div>
-</li>
-<li>
-    <div class="project_header">
-        <h2>error-prone-checks</h2>
-        <div><a href="https://github.com/gantsign/error-prone-checks">GitHub</a></div>
-    </div>
-    <div class="project_body">
-        <p>
-            The GantSign checks for
-            <a href="http://errorprone.info">Google Error Prone</a>
-            pickup where our Checkstyle configuration leaves off. Checkstyle
-            works on the source code and lacks the information to write rules
-            about API use.
-        </p>
-        <p>
-            The GantSign checks for Error Prone push developers to use the best
-            APIs currently available.
         </p>
     </div>
 </li>
