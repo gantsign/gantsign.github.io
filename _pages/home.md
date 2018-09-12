@@ -25,15 +25,15 @@ feature_row:
     excerpt: >
       Replace slow, error prone, manual processes with fast, reliable, version
       controlled, scriptable processes. One of the best things about DevOps is
-      it makes it easier to share solutions; GantSign have open sourced our
+      it makes it easier to share solutions; GantSign have open-sourced our
       Vagrant built development environment and several Ansible roles used to
       provision it.
     url: /opensource#virtual-machine-for-development
     btn_label: Learn More
     btn_class: btn--primary
-  - title: Open Source
+  - title: Open-source
     excerpt: >
-      GantSign has open sourced our tooling and Checkstyle rules to aid you in
+      GantSign has open-sourced our tooling and Checkstyle rules to aid you in
       writing great quality Java code. Using tooling to drive up quality,
       provides more reliable results, requires less ongoing effort, provides
       fast feedback, and allows you to spend more time encouraging your team
