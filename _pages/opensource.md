@@ -12,7 +12,7 @@ excerpt: >
     Libraries, plugins, code style and code quality, development VM and
     Ansible roles.
 date: 2017-01-23T18:27:43+00:00
-modified: 2018-09-12T17:47:33+01:00
+modified: 2018-10-19T11:01:26+01:00
 ---
 
 # Libraries and plugins
@@ -235,7 +235,7 @@ development and operations roles.
 With Ansible you can provision everything from your development environment, to
 your [Docker](https://www.docker.com) images, to your servers.
 
-The GanSign Ansible roles are available from
+The GantSign Ansible roles are available from
 [Ansible Galaxy](https://galaxy.ansible.com/gantsign/); between them there has
 been over [49,039](https://galaxy.ansible.com/search?vendor=false&namespaces=gantsign&order_by=-repository__download_count&page_size=100)
 downloads of GantSign Ansible roles.
